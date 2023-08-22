@@ -1,0 +1,102 @@
+.main{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 ;
+    text-align: center
+}
+.content head{
+    width: 1200px;
+}
+.head-big{
+    position: fixed;
+    width:100%;
+    background: #5a6268;
+}
+.head{
+    line-height: 50px;
+    height: 50px;
+    width: 1200px;
+    margin:  0 auto;
+    background: #5a6268;
+}
+.head-left{
+
+
+    height: 50px;
+    width: 300px;
+    float: left;
+    font-size: 20px;
+    background: #9c3131;
+}
+
+.head-right{
+    background: #0c5460;
+    height: 50px;
+    width: 900px;
+    float: right;
+}
+.head a{
+    color: black;
+}
+.head-right-li{
+    margin:0 auto;
+}
+.head-right-li-span{
+    margin-left:20px;
+}
+.head-right a:hover{
+    background: #bbb;
+    color: #000;
+}
+.head-left a:hover{
+    background: #1e7e34;
+    color: #000;
+}
+.head-fill{
+    height:  50px;
+    background: #1b1e21;
+}
+.content{
+    width: 1200px;
+    height: 1000px;
+    background: #8fd19e;
+    margin: 0 auto;
+}
+.biaoti{
+    line-height: 100px;
+    height: 100px;
+    background: #1b1e21;
+}
+
+.foot-big{
+    width:100%;
+    background: #5a6268;
+}
+.foot{
+    line-height: 50px;
+    height: 100px;
+    width: 1200px;
+    margin:  0 auto;
+    background: #5a6268;
+}
+.foot-left{
+    height: 100px;
+    width: 600px;
+    float: left;
+    font-size: 20px;
+    background: #9c3131;
+}
+
+.foot-right{
+    background: #1c7430;
+    height: 100px;
+    width: 600px;
+    float: right;
+}
+
+
+ul,li{ list-style: none;}
+ul{display:flex}
+a{text-decoration: none;}
+input,button,img{border: none;vertical-align: middle;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, legend, input, textarea, button, p, blockquote, th, td{margin: 0;padding: 0;}
